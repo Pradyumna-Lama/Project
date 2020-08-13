@@ -1,0 +1,59 @@
+.h1
+{
+    position: relative;
+	  color: black;
+	  border: 0px solid powderblue;
+    padding: 50px;
+    background-image: linear-gradient(lightblue,white,grey);
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 200%;
+
+
+}
+.cal{
+  float: right;
+  border: 0px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  background-image: linear-gradient(skyblue,grey);
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cal:hover {opacity: 1}
+#gui{
+  border-radius: 35px;
+
+  border: 0px solid powderblue;
+  margin-top:30px;
+  width: 35%;
+  float: left;
+}
+.img{
+   border: 0px solid powderblue;
+   width: 25%;
+   float: left;
+   padding: 20px;
+   margin-top:15px;
+}
+.pen{  
+  border-radius: 35px;
+  color: black;
+  border: 0px solid powderblue;
+  margin-top:30px;
+  width: 35%;
+  float: left;
+}
+.about{
+   border-radius: 25px;
+   border: 0px solid powderblue;
+   width: 100%;
+   float:left;
+   margin-top:20px;
+   height:100%;
+   background-repeat: no-repeat;
+
+}
